@@ -1,0 +1,37 @@
+.title {
+    text-align: center;
+    padding: 1vh 0 3vh 0;
+    margin: 0 auto;
+}
+
+.name {
+    text-align: center;
+}
+
+.heroes {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: auto;
+    column-gap: 2%;
+    row-gap: 1%;
+    justify-content: center;
+    padding-bottom: 12%;
+}
+
+.hero {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 7%;
+    padding-bottom: 8%;
+}
+
+.img {
+    width: 100%;
+    margin: 4% 0;
+}
+
+.text {
+    text-align: justify;
+}
